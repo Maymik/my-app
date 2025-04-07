@@ -22,7 +22,7 @@ export default function Profile() {
       />
 
       <p>
-        Hedy Lamar was not only a film star but also an inventor. Her work laid the foundations for modern wireless communication.
+        Hedy Lamarr was not only a film star but also an inventor. Her work laid the foundations for modern wireless communication.
       </p>
 
       <div style={{ margin: '20px 0' }}>
@@ -37,8 +37,8 @@ export default function Profile() {
         ></iframe>
       </div>
 
-      <button onClick={() => alert('Button clicked!')}>
-        Click Me
+      <button onClick={() => window.open('https://www.youtube.com/watch?v=gAjR4_CbPpQ', '_blank')}>
+        Watch on YouTube
       </button>
     </>
   );
